@@ -1,7 +1,7 @@
 library(ggplot2)
 library(ggrepel)
 
-data <- read.csv("C:/Users/Yuitere/Nextcloud/Maths/tf2 map sizes/tf2 map sizes.csv")
+data <- read.csv("tf2 map sizes.csv")
 
 names(data) <-c("gamemode", "map", "size", "labels")
 
